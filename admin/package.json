@@ -1,0 +1,22 @@
+{
+  "name": "authenticatin-app",
+  "version": "1.0.0",
+  "description": "simple authentication application built from scratch",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+    "express" : "*",
+    "mongoose" : "*",
+    "bcrypt" : "*",
+    "cors": "*",
+    "passport" : "*",
+    "jsonwebtoken" : "*",
+    "body-parser":"*",
+    "passport-jwt":"*"
+  },
+  "author": "Boopathi",
+  "license": "ISC"
+}
